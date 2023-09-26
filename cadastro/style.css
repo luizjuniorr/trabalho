@@ -1,0 +1,26 @@
+* {
+    font-family: Arial;
+    color: white;
+}
+
+body {
+    background: #5D5D81;
+}
+
+input {
+    background: #3B3355;
+    margin-left: 2rem;
+}
+
+input::placeholder {
+    color: white;
+}
+
+button {
+    color: white;
+}
+
+.text input[type="text"], .text input[type="password"]{
+    display: flex;
+    flex-direction: column;
+}
