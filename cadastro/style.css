@@ -18,9 +18,41 @@ input::placeholder {
 
 button {
     color: white;
+    background: grey;
 }
 
-.text input[type="text"], .text input[type="password"]{
+button:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+.text label {
+	display: block;
+	float: left;
+}
+
+.text label, input {
+	width:68px;
+	margin: 3px 0;
+}
+.text input {
+	width:170px;
+}
+
+fieldset {
+	width:40%;
+}
+
+form {
+    margin-top: 5rem;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+
+#fazerlogin a {
+    text-decoration: none;
+}
+
+#fazerlogin a:hover {
+    text-decoration: underline;
 }
