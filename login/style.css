@@ -1,0 +1,50 @@
+* {
+    font-family: Arial;
+    color: white;
+}
+
+body {
+    background: #5D5D81;
+}
+
+input {
+    background: #3B3355;
+    margin-left: 2rem;
+}
+
+input::placeholder {
+    color: white;
+}
+
+button {
+    color: white;
+    background: grey;
+}
+
+button:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+.text label {
+	display: block;
+	float: left;
+}
+
+.text label, input {
+	width:68px;
+	margin: 3px 0;
+}
+.text input {
+	width:170px;
+}
+
+fieldset {
+	width:40%;
+}
+
+form {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}

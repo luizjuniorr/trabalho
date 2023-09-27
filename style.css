@@ -29,6 +29,7 @@ header a {
     text-decoration: none;
     text-transform: uppercase;
     margin: 10px;
+    color: white;
 }
 
 header a:hover {
@@ -37,7 +38,7 @@ header a:hover {
 }
 
 #resumo {
-    margin-top: 4rem;
+    margin-top: 5rem;
     width: 60%;
     text-align: center;
     align-items: center;
